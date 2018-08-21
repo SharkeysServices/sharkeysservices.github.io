@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en">
+
+
+
+<!-- ..................................................HEAD......................................................... -->
+
+<head>
+
+
+    <!--TAB TITLE-->
+    <title>Sharkey's Services</title>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <!-- ...............................................CSS......................................................... -->
+    <style>
+        /*Settings effecting entire page*/
+
+        footer {
+            position: absolute;
+            bottom: 0%;
+            right: 46.5%;
+
+
+            background-color: rgb(34, 31, 32);
+            text-align: center;
+            color: rgb(192, 192, 192);
+            font-size: 50%;
+        }
+
+        body {
+            background: rgb(34, 31, 32) !important;
+            color: rgb(255, 255, 255);
+            text-align: center;
+
+            min-height: 100vh;
+            position: relative;
+            margin: 0;
+        }
+
+
+
+        div {
+            background-color: rgb(34, 31, 32);
+        }
+
+        .card-body {
+            background-color: rgb(34, 31, 32);
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+
+
+        .nav a:hover {
+            background: #DDDCDC;
+            color: #3C4E62;
+            transition: all 0.7s ease;
+        }
+
+        .nav {
+            background: rgb(236, 37, 38);
+        }
+
+        .nav-link.active {
+            background: #578DB9;
+        }
+
+        .nav-link {
+            color: rgb(255, 255, 255);
+        }
+
+        #demo {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 750%;
+        }
+
+div#exampleModalCenter {
+    background: rgba(34, 31, 32, 0.8);
+}
+.modal-dialog{
+    background: rgba(34, 31, 32, 0);
+}
+
+div#exampleModalCenter2 {
+    background: rgba(34, 31, 32, 0.8);
+}
+
+
+        .fa-bounce {
+            display: inline-block;
+            position: relative;
+            -moz-animation: bounce .5s linear;
+            -o-animation: bounce .5s linear;
+            -webkit-animation: bounce .5s linear;
+            animation: bounce .25s linear;
+        }
+
+        @-webkit-keyframes bounce {
+            0% {
+                top: 0;
+            }
+            50% {
+                top: -0.1em;
+            }
+            70% {
+                top: -0.1em;
+            }
+            100% {
+                top: 0;
+            }
+        }
+
+        @-moz-keyframes bounce {
+            0% {
+                top: 0;
+            }
+            50% {
+                top: -0.1em;
+            }
+            70% {
+                top: -0.1em;
+            }
+            100% {
+                top: 0;
+            }
+        }
+
+        @-o-keyframes bounce {
+            0% {
+                top: 0;
+            }
+            50% {
+                top: -0.1em;
+            }
+            70% {
+                top: -0.1em;
+            }
+            100% {
+                top: 0;
+            }
+        }
+
+        @-ms-keyframes bounce {
+            0% {
+                top: 0;
+            }
+            50% {
+                top: -0.1em;
+            }
+            70% {
+                top: -0.1em;
+            }
+            100% {
+                top: 0;
+            }
+        }
+
+        @keyframes bounce {
+            0% {
+                top: 0;
+            }
+            50% {
+                top: -0.1em;
+            }
+            70% {
+                top: -0.1em;
+            }
+            100% {
+                top: 0;
+            }
+        }
+
+
+
+
+
+        /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+
+        .icon-bar {
+            position: fixed;
+            top: 50%;
+            right: 0%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+
+        /* Style the icon bar links */
+
+        .icon-bar a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 15px;
+        }
+
+        /* Style the social media icons with color, if you want */
+
+        .icon-bar a:hover {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .instagram {
+            background: #dd4b39;
+            color: white;
+        }
+
+        .linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+        @import "../node_modules/bootstrap/scss/bootstrap";
+    </style>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+
+
+
+
+
+<!-- ..............................................BODY............................................................. -->
+
+<body>
+
+
+
+
+
+
+
+
+    <!-- Nav pills -->
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#HOME">
+                <svg id="i-home" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2">
+                    <path d="M12 20 L12 30 4 30 4 12 16 2 28 12 28 30 20 30 20 20 Z" />
+                </svg>
+                INICIO</a>
+
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#LOCATION">
+
+                <svg id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2">
+                    <circle cx="16" cy="11" r="4" />
+                    <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z" />
+                </svg>
+
+                UBICACIÓN
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#PRICING">
+                <svg id="i-creditcard" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2">
+                    <path d="M2 7 L2 25 30 25 30 7 Z M5 18 L9 18 M5 21 L11 21" />
+                    <path d="M2 11 L2 13 30 13 30 11 Z" fill="currentColor" />
+                </svg>
+                PRECIOS</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#CONTACT">
+                <svg id="i-msg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2">
+                    <path d="M2 4 L30 4 30 22 16 22 8 29 8 22 2 22 Z" />
+                </svg>
+                CONTACTO</a>
+        </li>
+
+
+
+
+
+        <li class="nav-item ml-auto">
+
+            <a href="https://zaloso.github.io" class="btn btn-primary">
+
+                <svg id="i-info" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2">
+                    <path d="M16 14 L16 23 M16 8 L16 10" />
+                    <circle cx="16" cy="16" r="14" />
+                </svg>
+                ENGLISH?</a>
+
+        </li>
+
+
+
+    </ul>
+
+
+
+
+
+
+
+
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane container active" id="HOME">
+
+            <div class="card-body">
+
+                <img src="SharkeyLogoSolo.png" alt="Responsive image">
+                <p class="card-text">
+                    <h5>SERVICIOS DE CASA Y VEHICULO - Disponible 24/7
+                        <pre></pre>
+                        <a href="tel:+19562713120" class="btn btn-primary">956-271-3120</a>
+                </p>
+                </h5>
+
+
+
+            </div>
+
+        </div>
+
+
+
+        <div style="width: 21.5em;margin:0 auto;" class="tab-pane container fade" id="LOCATION">
+            <pre>
+                
+            </pre>
+
+            <div class="card" style="width: 18rem;">
+
+
+                <div class="card-body">
+
+                    <div style="font-size: 24px;">
+                        <i class="fas fa-map-marked-alt fa-6x fa-bounce" style="color:white;"></i>
+                    </div>
+                    <pre></pre>
+                    <p style="color:rgb(0, 123, 255);" class="card-text">Servimos a estas áreas</p>
+                   MCALLEN, TX
+                        <br> MISSION, TX
+                        <br> EDINBURG, TX
+                        <br> PHARR, TX
+                    <pre></pre>
+
+                   
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter2">
+                        Mapa
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div style="background:white;" class="modal-content">
+                                <div style="background:rgb(236, 37, 38);" class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle2">Mapa</h5>
+
+                                </div>
+                                <div class="modal-body">
+
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d96295.00740566001!2d-98.29866710792788!3d26.24270216838113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1534716078713" width="450" height="425" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div  style="width: 21.5em;margin:0 auto;" class="tab-pane container fade" id="PRICING">
+            <pre>
+  
+            </pre>
+
+<div  class="card" style="width: 18rem;">
+
+
+
+    <div class="card-body">
+
+        <div style="font-size: 24px;">
+            <i class="fas fa-file-invoice-dollar fa-6x fa-bounce" style="color:white;"></i>
+        </div>
+        <pre></pre>
+        </i>
+        <pre></pre>
+        <p style="color:rgb(0, 123, 255);" class="card-text">Una tarifa plana simple</p>
+        $30 9am-5pm
+            <br> $40 después 5pm
+            <br> $50 después medianoche <pre></pre>
+        <p style="font-size: 75%;" class="card-text">*Aceptamos dinero en efectivo y crédito</p>
+        <pre></pre>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            Precio Ahora
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div style="background:white;" class="modal-content">
+                    <div style="background:rgb(236, 37, 38);" class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Precio Ahora</h5>
+
+                    </div>
+                    <div class="modal-body">
+
+                        <p style="color:rgb(255, 255, 255);" id="demo"></p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        <div style="width: 21.5em;margin:0 auto;" class="tab-pane container fade" id="CONTACT">
+            <pre>
+  
+            </pre>
+
+            <div class="card" style="width: 18rem;">
+
+
+
+                <div class="card-body">
+
+                    <div style="font-size: 24px;">
+                        <i class="fas fa-envelope fa-6x fa-bounce" style="color:white;"></i>
+                    </div>
+                    <pre></pre>
+                    <p style="color:rgb(0, 123, 255);" class="card-text">¿Tengo una pregunta? ¿Quieres darnos tu opinión?</p>
+                    Número:<br>
+                    <a class="btn btn-primary" href="tel:+19562713120">956-271-3120</a>
+                    <pre></pre>
+                    Correo Electrónico:
+                    <a class="btn btn-primary" target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=sharkeysservices247@gmail.com">
+                        sharkeysservices247@gmail.com
+                    </a>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- Social Media Icons -->
+
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/Sharkeys-Services-435039023652845/" target="_blank" class="facebook">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/SharkeysServic1" target="_blank" class="twitter">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sharkeys-services-3a89a2169/" target="_blank" class="linkedin">
+            <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/sharkeysservices/" target="_blank" class="instagram">
+            <i class="fa fa-instagram"></i>
+        </a>
+    </div>
+
+
+
+
+    <script>
+
+        if (new Date().getHours() >= 9 && new Date().getHours() <= 16) {
+            document.getElementById("demo").innerHTML = "$30";
+        }
+        else if (new Date().getHours() >= 17 && new Date().getHours() <= 23) {
+            document.getElementById("demo").innerHTML = "$40";
+        }
+        else if (new Date().getHours() >= 0 && new Date().getHours() <= 8) {
+            document.getElementById("demo").innerHTML = "$50";
+        }
+        else {
+            document.getElementById("demo").innerHTML = "Error";
+        }
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+<!-- ..............................................FOOTER............................................................-->
+<footer>
+
+    <p id="footy">© 2016 SHARKEY'S SERVICES</p>
+
+</footer>
+
+
+</html>
